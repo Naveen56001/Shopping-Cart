@@ -1,0 +1,10 @@
+.warning{
+  font-size: 25px;
+  color: red;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 400px;
+  font-weight: bold;
+  font-style: italic;
+}
