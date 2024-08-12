@@ -7,4 +7,5 @@
   width: 400px;
   font-weight: bold;
   font-style: italic;
+  overflow: scroll;
 }
