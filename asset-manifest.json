@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.98f04edc.css",
+    "main.css": "/Shopping-Cart/static/css/main.7292fd2b.css",
     "main.js": "/Shopping-Cart/static/js/main.96fbb47d.js",
     "static/media/fa-solid-900.ttf": "/Shopping-Cart/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Shopping-Cart/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/Shopping-Cart/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Shopping-Cart/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Shopping-Cart/index.html",
-    "main.98f04edc.css.map": "/Shopping-Cart/static/css/main.98f04edc.css.map",
+    "main.7292fd2b.css.map": "/Shopping-Cart/static/css/main.7292fd2b.css.map",
     "main.96fbb47d.js.map": "/Shopping-Cart/static/js/main.96fbb47d.js.map"
   },
   "entrypoints": [
-    "static/css/main.98f04edc.css",
+    "static/css/main.7292fd2b.css",
     "static/js/main.96fbb47d.js"
   ]
 }
