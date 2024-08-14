@@ -35,7 +35,7 @@ const App = () => {
         show ? <Shop handleClick={handleClick}/>
         : <Cart cart={cart} setCart={setCart}/>      
       }
-      {warning && <div className="warning">
+      {warning && <div className="absolute scroll-m-4 w-[450px] font-bold italic right-0 top-[10%] text-[25px] text-red-600">
         Item is already present in the cart !!!
         </div>
         }

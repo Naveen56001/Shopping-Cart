@@ -1,20 +1,19 @@
 import React from 'react'
-import '../styles/cart.css';
 
 const Cart = ({cart, setCart}) => {
 
     return (
-        <div className="main">
+        <div className="w-4/5 mx-auto mt-[5%] grid grid-cols-3 mb-[10%]">
             {
                 cart?.map((item) => (
-                    <div className="cart-box" key={item.id}>
-                        <div className="cart-img">
-                            <img src={item.img} alt="Selected" />
+                    <div className = "w-64 p-5 hover:shadow-2xl hover:cursor-pointer" key={item.id}>
+                        <div>
+                            <img className="w-44 h-60" src={item.img} alt="Selected" />
                         </div>
-                        <div className='content'>
-                            <p className="title">{item.title}</p>
-                            <p>{item.author}</p>
-                            <p className="price">Price - {item.price}</p>
+                        <div className="m-3 p-1 font-sans">
+                            <p className="font-bold text-lg">{item.title}</p>
+                            <p className="font-mono">{item.author}</p>
+                            <p className="text-lg">Price - {item.price}</p>
                         </div>
                     </div>
                 ))
